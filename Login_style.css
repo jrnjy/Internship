@@ -1,0 +1,52 @@
+body{
+    background-image: url(tra.jpg);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div{
+    width: 360px;
+    height: 620px;
+    margin: auto;
+    border-radius: 3px;   
+}
+h1{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 15px;
+}
+form{
+    width: 300px;
+    margin-left: 20px;
+}
+form label{
+    color: rgb(0, 0, 0);
+    display: flex;
+    margin-top: 20PX;
+    font-size: 18px;
+}
+form input{
+    width: 300px;
+    padding: 7px;
+    border: none;
+    border: 1px solid gray;
+    border-radius: 6px;
+    outline: none;
+}
+button{
+    width: 320px;
+    height: 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgb(76, 74, 175);
+    color: white;
+    font-size: 18px;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 20px;
+    font-size: auto;
+}
+a{
+    color: rgb(67, 1, 77);
+}

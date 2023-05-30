@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    background: border-box;
+}
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif, serif;
+    background-image: url('2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.container {
+    z-index: -1;
+    padding: 34px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 1% ;
+}
+.container .msg{
+    color: green;
+}
+.container h1, h3, p {
+    text-align: center;
+}
+
+.pics {
+    display: flex;
+    margin-left: 8%;
+}
+.pics a  {
+    margin-left: 8%;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+    border-radius: 20px;
+    border:solid 1px black;
+    color: black;
+    margin: auto;
+}
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+button {
+    width: 40%;
+    padding: 2%;
+    border-radius: 10px;
+    border:solid 1px white;
+    background-color: black;
+    color: white;
+}

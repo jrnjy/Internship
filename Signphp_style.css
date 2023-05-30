@@ -1,0 +1,16 @@
+button{
+    align-items: center;
+}
+p{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 40px;
+    padding-top: 300px;
+}
+.banner{
+    width:100%;
+    
+    background-image: linear-gradient(rgba(0, 0, 0, 0),rgba(0, 0, 0, 0)),url(4.jpg);
+    background-size: cover;
+    background-position: center;
+}
